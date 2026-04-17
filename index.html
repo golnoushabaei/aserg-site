@@ -2,153 +2,203 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ASERG | Advanced Software Engineering Research Group</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-<header>
-  <div class="container nav">
-    <div>
-      <h1>ASERG</h1>
-      <p class="subtitle">Advanced Software Engineering Research Group</p>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <img src="logo.svg" alt="ASERG logo" class="logo" />
+        <div>
+          <h1>ASERG</h1>
+          <p class="subtitle">Advanced Software Engineering Research Group</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#team">Team</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#team">Team</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
+  </header>
 
-<section class="hero">
-  <div class="container">
-    <h2>Advanced Software Engineering Research Group</h2>
-    <p>
-      We study how to design, build, evaluate, and evolve reliable,
-      maintainable, scalable, and responsible software systems.
-    </p>
-  </div>
-</section>
-
-<section id="about" class="section">
-  <div class="container">
-    <h3>About</h3>
-    <p>
-      ASERG brings together researchers and students working on modern
-      software engineering challenges, focusing on impactful and industry-relevant research.
-    </p>
-  </div>
-</section>
-
-<section id="research" class="section alt">
-  <div class="container">
-    <h3>Research Themes</h3>
-    <ul>
-      <li>AI for Software Engineering</li>
-      <li>Software Architecture</li>
-      <li>Empirical Software Engineering</li>
-      <li>Software Quality and Testing</li>
-      <li>Developer Productivity</li>
-      <li>Maintenance and Evolution</li>
-    </ul>
-  </div>
-</section>
-
-<section id="team" class="section">
-  <div class="container">
-    <h3>Team</h3>
-
-    <div class="cards">
-
-      <div class="card">
-        <h4>Dr. Mojtaba Shahin</h4>
-        <p>Senior Lecturer, RMIT University</p>
-        <p>
-          Senior Lecturer in the School of Computing Technologies at RMIT University.
-          Research in software engineering, AI/LLM for software engineering, DevOps, and more.
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">RMIT University</p>
+        <h2>Advanced Software Engineering Research Group</h2>
+        <p class="hero-text">
+          ASERG studies how to design, build, evaluate, and evolve reliable,
+          maintainable, scalable, secure, and responsible software systems.
         </p>
-        <p>📧 mojtab.shahin@rmit.edu.au</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#team">Meet the team</a>
+          <a class="button secondary" href="#research">Research themes</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Focus</h3>
         <p>
-          🔗 <a href="https://scholar.google.com.au/citations?user=Aml0q7sAAAAJ&hl=en&oi=ao">Google Scholar</a><br>
-          🏫 <a href="https://academics.rmit.edu.au/mojtaba-shahin">RMIT Profile</a><br>
-          💻 <a href="https://mojtabashahin.github.io/">Website</a>
+          Our work spans software engineering, AI for software engineering,
+          empirical software engineering, software quality, software architecture,
+          software testing, software engineering education, and professional practice.
         </p>
       </div>
-
-      <div class="card">
-        <h4>Dr. Golnoush Abaei</h4>
-        <p>Lecturer (Industry Practice), RMIT University</p>
-        <p>
-          Lecturer in the School of Computing Technologies at RMIT University.
-          Research in software engineering, AI for software engineering, and education.
-        </p>
-        <p>📧 golnoush.abaei@rmit.edu.au</p>
-        <p>📞 +61 3 9925 0294</p>
-        <p>
-          🔗 <a href="https://scholar.google.com.au/citations?user=0OjUid0AAAAJ&hl=en&oi=ao">Google Scholar</a><br>
-          🏫 <a href="https://academics.rmit.edu.au/golnoush-abaei/publications">RMIT Profile</a>
-        </p>
-      </div>
-
-      <div class="card">
-        <h4>Wendi Zhu</h4>
-        <p>PhD Student</p>
-        <p>Automated Software Testing for AI-based Systems.</p>
-      </div>
-
-      <div class="card">
-        <h4>Amila Rathnayake</h4>
-        <p>PhD Student</p>
-        <p>BDD test automation with Large Language Models.</p>
-      </div>
-
-      <div class="card">
-        <h4>Benjamin Lvovsky</h4>
-        <p>PhD Student</p>
-        <p>Resilient privacy infrastructure for enterprise security.</p>
-      </div>
-
-      <div class="card">
-        <h4>Uyen Nhu Le Khac</h4>
-        <p>PhD Student</p>
-        <p>Robustness-centric framework for LLM unlearning.</p>
-      </div>
-
-      <div class="card">
-        <h4>Akshita Agrawal</h4>
-        <p>Honours Student</p>
-        <p>LLM for Software Engineering.</p>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="news" class="section alt">
-  <div class="container">
-    <h3>News</h3>
-    <p>Welcome to our new honours student Akshita and our PhD researchers.</p>
-  </div>
-</section>
+  <section id="about" class="section">
+    <div class="container narrow">
+      <h3>About</h3>
+      <p>
+        The Advanced Software Engineering Research Group brings together academic
+        staff, PhD researchers, and honours students working on contemporary
+        software engineering challenges with strong real-world relevance.
+      </p>
+    </div>
+  </section>
 
-<section id="contact" class="section">
-  <div class="container">
-    <h3>Contact</h3>
-    <p>Email: aserg@rmit.edu.au</p>
-    <p>RMIT University, School of Computing Technologies</p>
-  </div>
-</section>
+  <section id="research" class="section alt">
+    <div class="container">
+      <h3>Research Themes</h3>
+      <div class="tag-grid">
+        <div class="tag-card">AI for Software Engineering</div>
+        <div class="tag-card">Software Architecture</div>
+        <div class="tag-card">Empirical Software Engineering</div>
+        <div class="tag-card">Software Quality and Testing</div>
+        <div class="tag-card">Developer Productivity</div>
+        <div class="tag-card">Maintenance and Evolution</div>
+        <div class="tag-card">Secure Software Engineering</div>
+        <div class="tag-card">Software Engineering Education</div>
+      </div>
+    </div>
+  </section>
 
-<footer>
-  <div class="container">
-    <p>© 2026 ASERG</p>
-  </div>
-</footer>
+  <section id="team" class="section">
+    <div class="container">
+      <h3>Team</h3>
 
+      <h4 class="team-group-title">Faculty</h4>
+      <div class="cards">
+        <div class="card">
+          <img src="images/mojtaba.jpg" alt="Dr. Mojtaba Shahin" class="avatar" />
+          <h4>Dr. Mojtaba Shahin</h4>
+          <p class="role">Senior Lecturer, RMIT University</p>
+          <p>
+            Senior Lecturer in the School of Computing Technologies at RMIT University.
+            His research focuses on software engineering, AI/LLM for software engineering,
+            software engineering for AI, empirical software engineering, software architecture,
+            secure software engineering, DevOps, and human and social aspects of software engineering.
+          </p>
+          <div class="links">
+            <p>📧 <a href="mailto:mojtaba.shahin@rmit.edu.au">mojtaba.shahin@rmit.edu.au</a></p>
+            <p>🔗 <a href="https://scholar.google.com.au/citations?user=Aml0q7sAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
+            <p>🏫 <a href="https://academics.rmit.edu.au/mojtaba-shahin" target="_blank" rel="noopener noreferrer">RMIT Profile</a></p>
+            <p>💻 <a href="https://mojtabashahin.github.io/" target="_blank" rel="noopener noreferrer">Personal Website</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/golnoush.jpg" alt="Dr. Golnoush Abaei" class="avatar" />
+          <h4>Dr. Golnoush Abaei</h4>
+          <p class="role">Lecturer (Industry Practice), RMIT University</p>
+          <p>
+            Lecturer in the School of Computing Technologies at RMIT University, Australia.
+            Her work centres on software engineering, AI for software engineering,
+            and software engineering education and professional practice development in computing.
+          </p>
+          <div class="links">
+            <p>📧 <a href="mailto:golnoush.abaei@rmit.edu.au">golnoush.abaei@rmit.edu.au</a></p>
+            <p>📞 <a href="tel:+61399250294">+61 3 9925 0294</a></p>
+            <p>🔗 <a href="https://scholar.google.com.au/citations?user=0OjUid0AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
+            <p>🏫 <a href="https://academics.rmit.edu.au/golnoush-abaei/publications" target="_blank" rel="noopener noreferrer">RMIT Profile</a></p>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="team-group-title">PhD Students</h4>
+      <div class="cards">
+        <div class="card">
+          <img src="images/avatar.png" alt="Wendi Zhu" class="avatar" />
+          <h4>Wendi Zhu</h4>
+          <p class="role">PhD Student</p>
+          <p>Automated Software Testing for AI-based Systems.</p>
+          <div class="links">
+            <p>💻 <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/avatar.png" alt="Amila Rathnayake" class="avatar" />
+          <h4>Amila Rathnayake</h4>
+          <p class="role">PhD Student</p>
+          <p>Behavior Driven Development (BDD) Test Automation with Large Language Models (LLMs).</p>
+          <div class="links">
+            <p>💻 <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/avatar.png" alt="Benjamin Lvovsky" class="avatar" />
+          <h4>Benjamin Lvovsky</h4>
+          <p class="role">PhD Student</p>
+          <p>Resilient Privacy Infrastructure for Enterprise Security.</p>
+          <div class="links">
+            <p>💻 <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/avatar.png" alt="Uyen Nhu Le Khac" class="avatar" />
+          <h4>Uyen Nhu Le Khac</h4>
+          <p class="role">PhD Student</p>
+          <p>A Robustness-Centric Framework for Large Language Models Unlearning.</p>
+          <div class="links">
+            <p>💻 <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="team-group-title">Honours Student</h4>
+      <div class="cards single-row">
+        <div class="card">
+          <img src="images/avatar.png" alt="Akshita Agrawal" class="avatar" />
+          <h4>Akshita Agrawal</h4>
+          <p class="role">Honours Student</p>
+          <p>LLM for Software Engineering.</p>
+          <div class="links">
+            <p>💻 <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="section alt">
+    <div class="container narrow">
+      <h3>News</h3>
+      <p>We warmly welcome Akshita Agrawal to ASERG as an honours student.</p>
+      <p>Our group currently includes faculty members, PhD researchers, and honours researchers working on advanced software engineering topics.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container narrow">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:golnoush.abaei@rmit.edu.au">golnoush.abaei@rmit.edu.au</a></p>
+      <p>Phone: <a href="tel:+61399250294">+61 3 9925 0294</a></p>
+      <p>School of Computing Technologies, RMIT University</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 ASERG — Advanced Software Engineering Research Group</p>
+    </div>
+  </footer>
 </body>
 </html>
