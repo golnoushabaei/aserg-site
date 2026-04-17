@@ -1,239 +1,154 @@
-export default function ASERGHomepage() {
-  const researchThemes = [
-    "AI for Software Engineering",
-    "Software Architecture",
-    "Empirical Software Engineering",
-    "Developer Productivity",
-    "Software Maintenance and Evolution",
-    "Human Factors in Software Engineering",
-    "Technical Debt",
-    "Software Quality and Testing",
-  ];
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASERG | Advanced Software Engineering Research Group</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-  const team = [
-    {
-      name: "Dr. Mojtaba Shahin",
-      role: "Senior Lecturer, RMIT University",
-      email: "mojtaba.shahin@rmit.edu.au",
-      phone: "",
-      scholar: "https://scholar.google.com.au/citations?user=Aml0q7sAAAAJ&hl=en&oi=ao",
-      rmit: "https://academics.rmit.edu.au/mojtaba-shahin",
-      github: "https://mojtabashahin.github.io/",
-      bio: "Senior Lecturer in the School of Computing Technologies at RMIT University. His research focuses on software engineering, AI/LLM for software engineering, software engineering for AI, empirical software engineering, software architecture, secure software engineering, DevOps, and human and social aspects of software engineering.",
-    },
-    {
-      name: "Dr. Golnoush Abaei",
-      role: "Lecturer (Industry Practice), RMIT University",
-      email: "golnoush.abaei@rmit.edu.au",
-      phone: "+61 3 9925 0294",
-      scholar: "https://scholar.google.com.au/citations?user=0OjUid0AAAAJ&hl=en&oi=ao",
-      rmit: "https://academics.rmit.edu.au/golnoush-abaei/publications",
-      github: "",
-      bio: "Lecturer in the School of Computing Technologies at RMIT University, Australia. Her work centres on software engineering, AI for software engineering, and software engineering education and professional practice development in computing.",
-    },
-    {
-      name: "Wendi Zhu",
-      role: "PhD Student",
-      email: "",
-      phone: "",
-      scholar: "",
-      rmit: "",
-      github: "",
-      bio: "Automated Software Testing for AI-based Systems.",
-    },
-    {
-      name: "Amila Rathnayake",
-      role: "PhD Student",
-      email: "",
-      phone: "",
-      scholar: "",
-      rmit: "",
-      github: "",
-      bio: "Behavior Driven Development (BDD) test automation with Large Language Models (LLMs).",
-    },
-    {
-      name: "Benjamin Lvovsky",
-      role: "PhD Student",
-      email: "",
-      phone: "",
-      scholar: "",
-      rmit: "",
-      github: "",
-      bio: "Resilient privacy infrastructure for enterprise security.",
-    },
-    {
-      name: "Uyen Nhu Le Khac",
-      role: "PhD Student",
-      email: "",
-      phone: "",
-      scholar: "",
-      rmit: "",
-      github: "",
-      bio: "A robustness-centric framework for Large Language Models unlearning.",
-    },
-    {
-      name: "Akshita Agrawal",
-      role: "Honours Student",
-      email: "",
-      phone: "",
-      scholar: "",
-      rmit: "",
-      github: "",
-      bio: "Large Language Models for Software Engineering.",
-    },
-  ];
+<body>
 
-  const news = [
-    {
-      title: "ASERG welcomes new honours students",
-      date: "April 2026",
-      summary: "We are delighted to welcome new student researchers to the group.",
-    },
-    {
-      title: "New project on software engineering research",
-      date: "March 2026",
-      summary: "Our team has started a new collaboration on advanced software engineering methods.",
-    },
-  ];
-
-  return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
-      <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <div>
-            <div className="text-lg font-semibold tracking-tight">ASERG</div>
-            <div className="text-xs text-slate-600">Advanced Software Engineering Research Group</div>
-          </div>
-          <nav className="hidden gap-6 text-sm md:flex">
-            <a href="#about" className="hover:text-slate-600">About</a>
-            <a href="#research" className="hover:text-slate-600">Research</a>
-            <a href="#team" className="hover:text-slate-600">Team</a>
-            <a href="#news" className="hover:text-slate-600">News</a>
-            <a href="#contact" className="hover:text-slate-600">Contact</a>
-          </nav>
-        </div>
-      </header>
-
-      <main>
-        <section className="border-b border-slate-200 bg-white">
-          <div className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-2 md:items-center">
-            <div>
-              <div className="mb-3 inline-block rounded-full border border-slate-200 px-3 py-1 text-xs font-medium uppercase tracking-wide text-slate-600">
-                Research Group
-              </div>
-              <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-                ASERG
-              </h1>
-              <p className="mt-3 text-xl text-slate-700">
-                Advanced Software Engineering Research Group
-              </p>
-              <p className="mt-6 max-w-xl text-base leading-7 text-slate-600">
-                We study how to design, build, evaluate, and evolve software systems that are reliable,
-                maintainable, scalable, and socially responsible. Our research connects rigorous methods
-                with real-world software engineering challenges.
-              </p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <a href="#research" className="rounded-2xl bg-slate-900 px-5 py-3 text-sm font-medium text-white shadow-sm">
-                  Explore research
-                </a>
-                <a href="#team" className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-sm font-medium text-slate-900 shadow-sm">
-                  Meet the team
-                </a>
-              </div>
-            </div>
-            <div>
-              <div className="rounded-3xl border border-slate-200 bg-slate-100 p-8 shadow-sm">
-                <div className="aspect-[4/3] rounded-2xl border border-dashed border-slate-300 bg-white p-6">
-                  <div className="text-sm font-semibold text-slate-700">Vision</div>
-                  <p className="mt-4 text-sm leading-7 text-slate-600">
-                    Advanced software engineering requires not only strong technical foundations, but also
-                    methods that support people, teams, and long-term sustainability. ASERG develops research
-                    that improves software practice through evidence, tooling, and collaboration.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="about" className="mx-auto max-w-6xl px-6 py-16">
-          <div className="max-w-3xl">
-            <h2 className="text-2xl font-semibold tracking-tight">About ASERG</h2>
-            <p className="mt-4 text-base leading-7 text-slate-600">
-              The Advanced Software Engineering Research Group brings together researchers and students working on
-              modern software engineering problems. We focus on producing impactful, rigorous, and industry-relevant
-              research across the software lifecycle.
-            </p>
-          </div>
-        </section>
-
-        <section id="research" className="border-y border-slate-200 bg-white">
-          <div className="mx-auto max-w-6xl px-6 py-16">
-            <h2 className="text-2xl font-semibold tracking-tight">Research Themes</h2>
-            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {researchThemes.map((theme) => (
-                <div key={theme} className="rounded-2xl border border-slate-200 bg-slate-50 p-5 shadow-sm">
-                  <div className="text-sm font-medium text-slate-800">{theme}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="team" className="mx-auto max-w-6xl px-6 py-16">
-          <h2 className="text-2xl font-semibold tracking-tight">Team</h2>
-          <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            {team.map((person) => (
-              <div key={person.name} className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-                <div className="mb-4 h-16 w-16 rounded-full bg-slate-200" />
-                <h3 className="text-lg font-semibold">{person.name}</h3>
-                <p className="mt-1 text-sm text-slate-500">{person.role}</p>
-                <p className="mt-4 text-sm leading-6 text-slate-600">{person.bio}</p>
-                <div className="mt-4 text-sm text-slate-600 space-y-1">
-                  {person.email && <div>📧 {person.email}</div>}
-                  {person.phone && <div>📞 {person.phone}</div>}
-                  {person.scholar && (
-                    <div>🔗 <a href={person.scholar} target="_blank" className="text-blue-600 underline">Google Scholar</a></div>
-                  )}
-                  {person.rmit && (
-                    <div>🏫 <a href={person.rmit} target="_blank" className="text-blue-600 underline">RMIT Profile</a></div>
-                  )}
-                  {person.github && (
-                    <div>💻 <a href={person.github} target="_blank" className="text-blue-600 underline">GitHub</a></div>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section id="news" className="border-y border-slate-200 bg-white">
-          <div className="mx-auto max-w-6xl px-6 py-16">
-            <h2 className="text-2xl font-semibold tracking-tight">News</h2>
-            <div className="mt-8 grid gap-6 md:grid-cols-2">
-              {news.map((item) => (
-                <article key={item.title} className="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
-                  <div className="text-sm text-slate-500">{item.date}</div>
-                  <h3 className="mt-2 text-lg font-semibold">{item.title}</h3>
-                  <p className="mt-3 text-sm leading-6 text-slate-600">{item.summary}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="contact" className="mx-auto max-w-6xl px-6 py-16">
-          <div className="rounded-3xl border border-slate-200 bg-slate-900 p-8 text-white shadow-sm">
-            <h2 className="text-2xl font-semibold tracking-tight">Contact</h2>
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300">
-              Add your university, department, office location, email, social links, and GitHub organization here.
-            </p>
-            <div className="mt-6 text-sm text-slate-300">
-              Example: aserg@university.edu
-            </div>
-          </div>
-        </section>
-      </main>
+<header>
+  <div class="container nav">
+    <div>
+      <h1>ASERG</h1>
+      <p class="subtitle">Advanced Software Engineering Research Group</p>
     </div>
-  );
-}
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#team">Team</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2>Advanced Software Engineering Research Group</h2>
+    <p>
+      We study how to design, build, evaluate, and evolve reliable,
+      maintainable, scalable, and responsible software systems.
+    </p>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h3>About</h3>
+    <p>
+      ASERG brings together researchers and students working on modern
+      software engineering challenges, focusing on impactful and industry-relevant research.
+    </p>
+  </div>
+</section>
+
+<section id="research" class="section alt">
+  <div class="container">
+    <h3>Research Themes</h3>
+    <ul>
+      <li>AI for Software Engineering</li>
+      <li>Software Architecture</li>
+      <li>Empirical Software Engineering</li>
+      <li>Software Quality and Testing</li>
+      <li>Developer Productivity</li>
+      <li>Maintenance and Evolution</li>
+    </ul>
+  </div>
+</section>
+
+<section id="team" class="section">
+  <div class="container">
+    <h3>Team</h3>
+
+    <div class="cards">
+
+      <div class="card">
+        <h4>Dr. Mojtaba Shahin</h4>
+        <p>Senior Lecturer, RMIT University</p>
+        <p>
+          Senior Lecturer in the School of Computing Technologies at RMIT University.
+          Research in software engineering, AI/LLM for software engineering, DevOps, and more.
+        </p>
+        <p>📧 mojtab.shahin@rmit.edu.au</p>
+        <p>
+          🔗 <a href="https://scholar.google.com.au/citations?user=Aml0q7sAAAAJ&hl=en&oi=ao">Google Scholar</a><br>
+          🏫 <a href="https://academics.rmit.edu.au/mojtaba-shahin">RMIT Profile</a><br>
+          💻 <a href="https://mojtabashahin.github.io/">Website</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Dr. Golnoush Abaei</h4>
+        <p>Lecturer (Industry Practice), RMIT University</p>
+        <p>
+          Lecturer in the School of Computing Technologies at RMIT University.
+          Research in software engineering, AI for software engineering, and education.
+        </p>
+        <p>📧 golnoush.abaei@rmit.edu.au</p>
+        <p>📞 +61 3 9925 0294</p>
+        <p>
+          🔗 <a href="https://scholar.google.com.au/citations?user=0OjUid0AAAAJ&hl=en&oi=ao">Google Scholar</a><br>
+          🏫 <a href="https://academics.rmit.edu.au/golnoush-abaei/publications">RMIT Profile</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Wendi Zhu</h4>
+        <p>PhD Student</p>
+        <p>Automated Software Testing for AI-based Systems.</p>
+      </div>
+
+      <div class="card">
+        <h4>Amila Rathnayake</h4>
+        <p>PhD Student</p>
+        <p>BDD test automation with Large Language Models.</p>
+      </div>
+
+      <div class="card">
+        <h4>Benjamin Lvovsky</h4>
+        <p>PhD Student</p>
+        <p>Resilient privacy infrastructure for enterprise security.</p>
+      </div>
+
+      <div class="card">
+        <h4>Uyen Nhu Le Khac</h4>
+        <p>PhD Student</p>
+        <p>Robustness-centric framework for LLM unlearning.</p>
+      </div>
+
+      <div class="card">
+        <h4>Akshita Agrawal</h4>
+        <p>Honours Student</p>
+        <p>LLM for Software Engineering.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="news" class="section alt">
+  <div class="container">
+    <h3>News</h3>
+    <p>Welcome to our new honours student Akshita and our PhD researchers.</p>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h3>Contact</h3>
+    <p>Email: aserg@rmit.edu.au</p>
+    <p>RMIT University, School of Computing Technologies</p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 ASERG</p>
+  </div>
+</footer>
+
+</body>
+</html>
