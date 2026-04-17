@@ -85,7 +85,7 @@
       <h4 class="team-group-title">Faculty</h4>
       <div class="cards">
         <div class="card">
-          <img src="images/mojtaba.jpg" alt="Dr. Mojtaba Shahin" class="avatar" />
+          <img src="mojtaba.jpeg" alt="Dr. Mojtaba Shahin" class="avatar" />
           <h4>Dr. Mojtaba Shahin</h4>
           <p class="role">Senior Lecturer, RMIT University</p>
           <p>
@@ -103,7 +103,7 @@
         </div>
 
         <div class="card">
-          <img src="images/golnoush.jpg" alt="Dr. Golnoush Abaei" class="avatar" />
+          <img src="golnoush.jpg" alt="Dr. Golnoush Abaei" class="avatar" />
           <h4>Dr. Golnoush Abaei</h4>
           <p class="role">Lecturer (Industry Practice), RMIT University</p>
           <p>
@@ -123,7 +123,7 @@
       <h4 class="team-group-title">PhD Students</h4>
       <div class="cards">
         <div class="card">
-          <img src="images/avatar.png" alt="Wendi Zhu" class="avatar" />
+          <img src="avatar.png" alt="Wendi Zhu" class="avatar" />
           <h4>Wendi Zhu</h4>
           <p class="role">PhD Student</p>
           <p>Automated Software Testing for AI-based Systems.</p>
@@ -133,7 +133,7 @@
         </div>
 
         <div class="card">
-          <img src="images/avatar.png" alt="Amila Rathnayake" class="avatar" />
+          <img src="avatar.png" alt="Amila Rathnayake" class="avatar" />
           <h4>Amila Rathnayake</h4>
           <p class="role">PhD Student</p>
           <p>Behavior Driven Development (BDD) Test Automation with Large Language Models (LLMs).</p>
@@ -143,7 +143,7 @@
         </div>
 
         <div class="card">
-          <img src="images/avatar.png" alt="Benjamin Lvovsky" class="avatar" />
+          <img src="avatar.png" alt="Benjamin Lvovsky" class="avatar" />
           <h4>Benjamin Lvovsky</h4>
           <p class="role">PhD Student</p>
           <p>Resilient Privacy Infrastructure for Enterprise Security.</p>
@@ -153,7 +153,7 @@
         </div>
 
         <div class="card">
-          <img src="images/avatar.png" alt="Uyen Nhu Le Khac" class="avatar" />
+          <img src="avatar.png" alt="Uyen Nhu Le Khac" class="avatar" />
           <h4>Uyen Nhu Le Khac</h4>
           <p class="role">PhD Student</p>
           <p>A Robustness-Centric Framework for Large Language Models Unlearning.</p>
@@ -166,7 +166,7 @@
       <h4 class="team-group-title">Honours Student</h4>
       <div class="cards single-row">
         <div class="card">
-          <img src="images/avatar.png" alt="Akshita Agrawal" class="avatar" />
+          <img src="avatar.png" alt="Akshita Agrawal" class="avatar" />
           <h4>Akshita Agrawal</h4>
           <p class="role">Honours Student</p>
           <p>LLM for Software Engineering.</p>
